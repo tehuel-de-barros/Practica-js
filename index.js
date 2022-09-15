@@ -45,4 +45,24 @@ const encuesta = () => {
     
 }
 
+
 encuesta();
+
+const f5 = () => { 
+    location.reload();
+}
+let = document.getElementById("boton_recarga");
+boton_recarga.addEventListener("click", encuesta);
+
+const log = (nombre) => { 
+    alert("hola " + nombre);
+}
+
+let = document.getElementById("logIn");
+logIn.addEventListener("click", () => log(prompt("Ingrese su usuario")));
+
+
+color = () => {
+    let element = document.getElementById("myID");
+    element.style.backgroundColor='#FF0000';
+    }
